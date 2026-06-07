@@ -22,5 +22,21 @@ int main() {
         printf("No es ni 99, ni 100\n");
     }
 
+    // CONDICIONAL SWITCH
+    char color = 'A';
+
+    // switch solo acepta valores int y char
+    switch (color) {
+        case 'V':
+            printf("Éxito\n");
+            break;
+        case 'A':
+            printf("Advertencia\n");
+            break;
+        default:
+            printf("Error\n");
+            break;
+    }
+
     return 0;
 }
